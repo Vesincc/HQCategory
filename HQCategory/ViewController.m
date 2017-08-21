@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSDate+Extension.h"
+#import "Foundation_Category.h"
 
 @interface ViewController ()
 
@@ -17,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    NSDate *now = [NSDate date];
     
     
     

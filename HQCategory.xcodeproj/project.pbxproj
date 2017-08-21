@@ -26,6 +26,7 @@
 		BB588A9C1F4ACD2500290AE2 /* NSDictionary+HQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A9B1F4ACD2500290AE2 /* NSDictionary+HQLog.m */; };
 		BB588AA01F4AD06900290AE2 /* NSTimer+HQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A9F1F4AD06900290AE2 /* NSTimer+HQExtension.m */; };
 		BB588AA31F4AD37800290AE2 /* NSTimer+HQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AA21F4AD37800290AE2 /* NSTimer+HQBlock.m */; };
+		BB588AA81F4ADDFE00290AE2 /* Foundation_Category.h in Sources */ = {isa = PBXBuildFile; fileRef = BB588AA71F4ADC3200290AE2 /* Foundation_Category.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		BB588A9F1F4AD06900290AE2 /* NSTimer+HQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HQExtension.m"; sourceTree = "<group>"; };
 		BB588AA11F4AD37800290AE2 /* NSTimer+HQBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HQBlock.h"; sourceTree = "<group>"; };
 		BB588AA21F4AD37800290AE2 /* NSTimer+HQBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HQBlock.m"; sourceTree = "<group>"; };
+		BB588AA71F4ADC3200290AE2 /* Foundation_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foundation_Category.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 		BB588A741F4AAA8500290AE2 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				BB588AA71F4ADC3200290AE2 /* Foundation_Category.h */,
 				BB588A761F4AAC0400290AE2 /* NSArray */,
 				BB588A771F4AAC0400290AE2 /* NSData */,
 				BB588A781F4AAC0400290AE2 /* NSDate */,
@@ -427,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB588AA81F4ADDFE00290AE2 /* Foundation_Category.h in Sources */,
 				BB588A961F4ACB8200290AE2 /* NSDictionary+HQMerge.m in Sources */,
 				BB588A901F4AC97300290AE2 /* NSDateFormatter+HQMake.m in Sources */,
 				BB588A8D1F4AB17800290AE2 /* NSDate+Extension.m in Sources */,
