@@ -15,6 +15,7 @@
 		BB588A461F4A7E7C00290AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB588A441F4A7E7C00290AE2 /* LaunchScreen.storyboard */; };
 		BB588A511F4A7E7C00290AE2 /* HQCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A501F4A7E7C00290AE2 /* HQCategoryTests.m */; };
 		BB588A5C1F4A7E7C00290AE2 /* HQCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A5B1F4A7E7C00290AE2 /* HQCategoryUITests.m */; };
+		BB588A721F4A8E1600290AE2 /* NSArray+HQJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A711F4A8E1600290AE2 /* NSArray+HQJson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BB588A571F4A7E7C00290AE2 /* HQCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB588A5B1F4A7E7C00290AE2 /* HQCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCategoryUITests.m; sourceTree = "<group>"; };
 		BB588A5D1F4A7E7C00290AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB588A701F4A8E1600290AE2 /* NSArray+HQJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HQJson.h"; sourceTree = "<group>"; };
+		BB588A711F4A8E1600290AE2 /* NSArray+HQJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HQJson.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		BB588A351F4A7E7C00290AE2 /* HQCategory */ = {
 			isa = PBXGroup;
 			children = (
+				BB588A691F4A890100290AE2 /* Classes */,
 				BB588A391F4A7E7C00290AE2 /* AppDelegate.h */,
 				BB588A3A1F4A7E7C00290AE2 /* AppDelegate.m */,
 				BB588A3C1F4A7E7C00290AE2 /* ViewController.h */,
@@ -138,6 +142,39 @@
 				BB588A5D1F4A7E7C00290AE2 /* Info.plist */,
 			);
 			path = HQCategoryUITests;
+			sourceTree = "<group>";
+		};
+		BB588A691F4A890100290AE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A6A1F4A8B6900290AE2 /* Foundation */,
+				BB588A6B1F4A8B6900290AE2 /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB588A6A1F4A8B6900290AE2 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A6F1F4A8DF800290AE2 /* NSArray */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BB588A6B1F4A8B6900290AE2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BB588A6F1F4A8DF800290AE2 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A701F4A8E1600290AE2 /* NSArray+HQJson.h */,
+				BB588A711F4A8E1600290AE2 /* NSArray+HQJson.m */,
+			);
+			path = NSArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB588A3E1F4A7E7C00290AE2 /* ViewController.m in Sources */,
+				BB588A721F4A8E1600290AE2 /* NSArray+HQJson.m in Sources */,
 				BB588A3B1F4A7E7C00290AE2 /* AppDelegate.m in Sources */,
 				BB588A381F4A7E7C00290AE2 /* main.m in Sources */,
 			);
