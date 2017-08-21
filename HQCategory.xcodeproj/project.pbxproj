@@ -15,6 +15,17 @@
 		BB588A461F4A7E7C00290AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB588A441F4A7E7C00290AE2 /* LaunchScreen.storyboard */; };
 		BB588A511F4A7E7C00290AE2 /* HQCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A501F4A7E7C00290AE2 /* HQCategoryTests.m */; };
 		BB588A5C1F4A7E7C00290AE2 /* HQCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A5B1F4A7E7C00290AE2 /* HQCategoryUITests.m */; };
+		BB588A841F4AAD3800290AE2 /* NSArray+HQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A831F4AAD3800290AE2 /* NSArray+HQLog.m */; };
+		BB588A871F4AAD6200290AE2 /* NSArray+HQJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A861F4AAD6200290AE2 /* NSArray+HQJson.m */; };
+		BB588A8A1F4AAE7600290AE2 /* NSArray+HQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A891F4AAE7600290AE2 /* NSArray+HQBlock.m */; };
+		BB588A8D1F4AB17800290AE2 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A8C1F4AB17800290AE2 /* NSDate+Extension.m */; };
+		BB588A901F4AC97300290AE2 /* NSDateFormatter+HQMake.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A8F1F4AC97300290AE2 /* NSDateFormatter+HQMake.m */; };
+		BB588A931F4ACACB00290AE2 /* NSDictionary+HQJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A921F4ACACB00290AE2 /* NSDictionary+HQJson.m */; };
+		BB588A961F4ACB8200290AE2 /* NSDictionary+HQMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A951F4ACB8200290AE2 /* NSDictionary+HQMerge.m */; };
+		BB588A991F4ACD0F00290AE2 /* NSString+HQContains.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A981F4ACD0F00290AE2 /* NSString+HQContains.m */; };
+		BB588A9C1F4ACD2500290AE2 /* NSDictionary+HQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A9B1F4ACD2500290AE2 /* NSDictionary+HQLog.m */; };
+		BB588AA01F4AD06900290AE2 /* NSTimer+HQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A9F1F4AD06900290AE2 /* NSTimer+HQExtension.m */; };
+		BB588AA31F4AD37800290AE2 /* NSTimer+HQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AA21F4AD37800290AE2 /* NSTimer+HQBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,28 @@
 		BB588A571F4A7E7C00290AE2 /* HQCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB588A5B1F4A7E7C00290AE2 /* HQCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCategoryUITests.m; sourceTree = "<group>"; };
 		BB588A5D1F4A7E7C00290AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB588A821F4AAD3800290AE2 /* NSArray+HQLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HQLog.h"; sourceTree = "<group>"; };
+		BB588A831F4AAD3800290AE2 /* NSArray+HQLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HQLog.m"; sourceTree = "<group>"; };
+		BB588A851F4AAD6200290AE2 /* NSArray+HQJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HQJson.h"; sourceTree = "<group>"; };
+		BB588A861F4AAD6200290AE2 /* NSArray+HQJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HQJson.m"; sourceTree = "<group>"; };
+		BB588A881F4AAE7600290AE2 /* NSArray+HQBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HQBlock.h"; sourceTree = "<group>"; };
+		BB588A891F4AAE7600290AE2 /* NSArray+HQBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HQBlock.m"; sourceTree = "<group>"; };
+		BB588A8B1F4AB17800290AE2 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		BB588A8C1F4AB17800290AE2 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		BB588A8E1F4AC97300290AE2 /* NSDateFormatter+HQMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+HQMake.h"; sourceTree = "<group>"; };
+		BB588A8F1F4AC97300290AE2 /* NSDateFormatter+HQMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+HQMake.m"; sourceTree = "<group>"; };
+		BB588A911F4ACACB00290AE2 /* NSDictionary+HQJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HQJson.h"; sourceTree = "<group>"; };
+		BB588A921F4ACACB00290AE2 /* NSDictionary+HQJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HQJson.m"; sourceTree = "<group>"; };
+		BB588A941F4ACB8200290AE2 /* NSDictionary+HQMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HQMerge.h"; sourceTree = "<group>"; };
+		BB588A951F4ACB8200290AE2 /* NSDictionary+HQMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HQMerge.m"; sourceTree = "<group>"; };
+		BB588A971F4ACD0F00290AE2 /* NSString+HQContains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HQContains.h"; sourceTree = "<group>"; };
+		BB588A981F4ACD0F00290AE2 /* NSString+HQContains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HQContains.m"; sourceTree = "<group>"; };
+		BB588A9A1F4ACD2500290AE2 /* NSDictionary+HQLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HQLog.h"; sourceTree = "<group>"; };
+		BB588A9B1F4ACD2500290AE2 /* NSDictionary+HQLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HQLog.m"; sourceTree = "<group>"; };
+		BB588A9E1F4AD06900290AE2 /* NSTimer+HQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HQExtension.h"; sourceTree = "<group>"; };
+		BB588A9F1F4AD06900290AE2 /* NSTimer+HQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HQExtension.m"; sourceTree = "<group>"; };
+		BB588AA11F4AD37800290AE2 /* NSTimer+HQBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HQBlock.h"; sourceTree = "<group>"; };
+		BB588AA21F4AD37800290AE2 /* NSTimer+HQBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HQBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +134,7 @@
 		BB588A351F4A7E7C00290AE2 /* HQCategory */ = {
 			isa = PBXGroup;
 			children = (
+				BB588A731F4AAA5B00290AE2 /* Classes */,
 				BB588A391F4A7E7C00290AE2 /* AppDelegate.h */,
 				BB588A3A1F4A7E7C00290AE2 /* AppDelegate.m */,
 				BB588A3C1F4A7E7C00290AE2 /* ViewController.h */,
@@ -138,6 +172,123 @@
 				BB588A5D1F4A7E7C00290AE2 /* Info.plist */,
 			);
 			path = HQCategoryUITests;
+			sourceTree = "<group>";
+		};
+		BB588A731F4AAA5B00290AE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A741F4AAA8500290AE2 /* Foundation */,
+				BB588A751F4AAA8500290AE2 /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BB588A741F4AAA8500290AE2 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A761F4AAC0400290AE2 /* NSArray */,
+				BB588A771F4AAC0400290AE2 /* NSData */,
+				BB588A781F4AAC0400290AE2 /* NSDate */,
+				BB588A791F4AAC0400290AE2 /* NSDateFormatter */,
+				BB588A7A1F4AAC0400290AE2 /* NSDictionary */,
+				BB588A7B1F4AAC0400290AE2 /* NSFileManager */,
+				BB588A7C1F4AAC0400290AE2 /* NSObject */,
+				BB588A7D1F4AAC0400290AE2 /* NSString */,
+				BB588A7E1F4AAC0400290AE2 /* NSTimer */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BB588A751F4AAA8500290AE2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BB588A761F4AAC0400290AE2 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A821F4AAD3800290AE2 /* NSArray+HQLog.h */,
+				BB588A831F4AAD3800290AE2 /* NSArray+HQLog.m */,
+				BB588A851F4AAD6200290AE2 /* NSArray+HQJson.h */,
+				BB588A861F4AAD6200290AE2 /* NSArray+HQJson.m */,
+				BB588A881F4AAE7600290AE2 /* NSArray+HQBlock.h */,
+				BB588A891F4AAE7600290AE2 /* NSArray+HQBlock.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		BB588A771F4AAC0400290AE2 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		BB588A781F4AAC0400290AE2 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A8B1F4AB17800290AE2 /* NSDate+Extension.h */,
+				BB588A8C1F4AB17800290AE2 /* NSDate+Extension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		BB588A791F4AAC0400290AE2 /* NSDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A8E1F4AC97300290AE2 /* NSDateFormatter+HQMake.h */,
+				BB588A8F1F4AC97300290AE2 /* NSDateFormatter+HQMake.m */,
+			);
+			path = NSDateFormatter;
+			sourceTree = "<group>";
+		};
+		BB588A7A1F4AAC0400290AE2 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A911F4ACACB00290AE2 /* NSDictionary+HQJson.h */,
+				BB588A921F4ACACB00290AE2 /* NSDictionary+HQJson.m */,
+				BB588A941F4ACB8200290AE2 /* NSDictionary+HQMerge.h */,
+				BB588A951F4ACB8200290AE2 /* NSDictionary+HQMerge.m */,
+				BB588A9A1F4ACD2500290AE2 /* NSDictionary+HQLog.h */,
+				BB588A9B1F4ACD2500290AE2 /* NSDictionary+HQLog.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		BB588A7B1F4AAC0400290AE2 /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		BB588A7C1F4AAC0400290AE2 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		BB588A7D1F4AAC0400290AE2 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A971F4ACD0F00290AE2 /* NSString+HQContains.h */,
+				BB588A981F4ACD0F00290AE2 /* NSString+HQContains.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		BB588A7E1F4AAC0400290AE2 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BB588A9E1F4AD06900290AE2 /* NSTimer+HQExtension.h */,
+				BB588A9F1F4AD06900290AE2 /* NSTimer+HQExtension.m */,
+				BB588AA11F4AD37800290AE2 /* NSTimer+HQBlock.h */,
+				BB588AA21F4AD37800290AE2 /* NSTimer+HQBlock.m */,
+			);
+			path = NSTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +427,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB588A961F4ACB8200290AE2 /* NSDictionary+HQMerge.m in Sources */,
+				BB588A901F4AC97300290AE2 /* NSDateFormatter+HQMake.m in Sources */,
+				BB588A8D1F4AB17800290AE2 /* NSDate+Extension.m in Sources */,
+				BB588AA01F4AD06900290AE2 /* NSTimer+HQExtension.m in Sources */,
+				BB588A841F4AAD3800290AE2 /* NSArray+HQLog.m in Sources */,
 				BB588A3E1F4A7E7C00290AE2 /* ViewController.m in Sources */,
+				BB588A931F4ACACB00290AE2 /* NSDictionary+HQJson.m in Sources */,
+				BB588A871F4AAD6200290AE2 /* NSArray+HQJson.m in Sources */,
+				BB588A991F4ACD0F00290AE2 /* NSString+HQContains.m in Sources */,
+				BB588A9C1F4ACD2500290AE2 /* NSDictionary+HQLog.m in Sources */,
 				BB588A3B1F4A7E7C00290AE2 /* AppDelegate.m in Sources */,
 				BB588A381F4A7E7C00290AE2 /* main.m in Sources */,
+				BB588A8A1F4AAE7600290AE2 /* NSArray+HQBlock.m in Sources */,
+				BB588AA31F4AD37800290AE2 /* NSTimer+HQBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,11 +589,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T2Q45F84HW;
 				INFOPLIST_FILE = HQCategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanqi.HQCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -439,11 +603,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T2Q45F84HW;
 				INFOPLIST_FILE = HQCategory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanqi.HQCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -516,6 +682,7 @@
 				BB588A621F4A7E7C00290AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB588A631F4A7E7C00290AE2 /* Build configuration list for PBXNativeTarget "HQCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +691,7 @@
 				BB588A651F4A7E7C00290AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB588A661F4A7E7C00290AE2 /* Build configuration list for PBXNativeTarget "HQCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +700,7 @@
 				BB588A681F4A7E7C00290AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
