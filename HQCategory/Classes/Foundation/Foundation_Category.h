@@ -13,6 +13,8 @@
 #import "NSArray+HQJson.h"
 #import "NSArray+HQBlock.h"
 
+#import "NSData+HQBase64.h"
+
 #import "NSDate+Extension.h"
 
 #import "NSDateFormatter+HQMake.h"
@@ -21,9 +23,13 @@
 #import "NSDictionary+HQJson.h"
 #import "NSDictionary+HQMerge.h"
 
-#import "NSString+HQContains.h"
-
 #import "NSTimer+HQBlock.h"
 #import "NSTimer+HQExtension.h"
+
+#import "NSString+HQSize.h"
+#import "NSString+HQSpell.h"
+#import "NSString+HQBase64.h"
+#import "NSString+HQEncode.h"
+#import "NSString+HQContains.h"
 
 #endif /* Foundation_Category_h */

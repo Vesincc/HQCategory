@@ -9,6 +9,18 @@
 #ifndef UIKit_Category_h
 #define UIKit_Category_h
 
-#import "NSArray+HQLog.h"
+#import "UIColor+HQHex.h"
+#import "UIColor+HQRandom.h"
+
+#import "UIImage+HQCapture.h"
+#import "UIImage+HQColor.h"
+#import "UIImage+HQFileName.h"
+#import "UIImage+HQAntialias.h"
+
+#import "UIView+HQFrame.h"
+#import "UIView+HQGesture.h"
+#import "UIView+HQExtension.h"
+
+#import "UIButton+HQTouch.h"
 
 #endif /* UIKit_Category_h */

@@ -31,6 +31,16 @@
 		BB588AB41F4BD78D00290AE2 /* NSString+HQSpell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AB31F4BD78D00290AE2 /* NSString+HQSpell.m */; };
 		BB588AB81F4BD95E00290AE2 /* NSString+HQSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AB71F4BD95E00290AE2 /* NSString+HQSize.m */; };
 		BB588ABB1F4BE36700290AE2 /* NSData+HQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588ABA1F4BE36700290AE2 /* NSData+HQBase64.m */; };
+		BB588AC41F4BFDCA00290AE2 /* UIColor+HQHex.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AC31F4BFDCA00290AE2 /* UIColor+HQHex.m */; };
+		BB588AC71F4BFF3300290AE2 /* UIColor+HQRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AC61F4BFF3300290AE2 /* UIColor+HQRandom.m */; };
+		BB588ACB1F4C000200290AE2 /* UIImage+HQCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588ACA1F4C000200290AE2 /* UIImage+HQCapture.m */; };
+		BB588ACE1F4C010E00290AE2 /* UIImage+HQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588ACD1F4C010E00290AE2 /* UIImage+HQColor.m */; };
+		BB588AD11F4C024700290AE2 /* UIImage+HQFileName.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AD01F4C024700290AE2 /* UIImage+HQFileName.m */; };
+		BB588AD41F4C039000290AE2 /* UIImage+HQAntialias.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AD31F4C039000290AE2 /* UIImage+HQAntialias.m */; };
+		BB588AD81F4C04DA00290AE2 /* UIView+HQGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AD71F4C04DA00290AE2 /* UIView+HQGesture.m */; };
+		BB588ADB1F4C073B00290AE2 /* UIView+HQFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588ADA1F4C073B00290AE2 /* UIView+HQFrame.m */; };
+		BB588ADE1F4C07F700290AE2 /* UIView+HQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588ADD1F4C07F700290AE2 /* UIView+HQExtension.m */; };
+		BB588AE21F4C0CA400290AE2 /* UIButton+HQTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AE11F4C0CA400290AE2 /* UIButton+HQTouch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +111,26 @@
 		BB588AB91F4BE36700290AE2 /* NSData+HQBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HQBase64.h"; sourceTree = "<group>"; };
 		BB588ABA1F4BE36700290AE2 /* NSData+HQBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HQBase64.m"; sourceTree = "<group>"; };
 		BB588AC01F4BFA8B00290AE2 /* UIKit_Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_Category.h; sourceTree = "<group>"; };
+		BB588AC21F4BFDCA00290AE2 /* UIColor+HQHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HQHex.h"; sourceTree = "<group>"; };
+		BB588AC31F4BFDCA00290AE2 /* UIColor+HQHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HQHex.m"; sourceTree = "<group>"; };
+		BB588AC51F4BFF3300290AE2 /* UIColor+HQRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HQRandom.h"; sourceTree = "<group>"; };
+		BB588AC61F4BFF3300290AE2 /* UIColor+HQRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HQRandom.m"; sourceTree = "<group>"; };
+		BB588AC91F4C000200290AE2 /* UIImage+HQCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQCapture.h"; sourceTree = "<group>"; };
+		BB588ACA1F4C000200290AE2 /* UIImage+HQCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQCapture.m"; sourceTree = "<group>"; };
+		BB588ACC1F4C010E00290AE2 /* UIImage+HQColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQColor.h"; sourceTree = "<group>"; };
+		BB588ACD1F4C010E00290AE2 /* UIImage+HQColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQColor.m"; sourceTree = "<group>"; };
+		BB588ACF1F4C024700290AE2 /* UIImage+HQFileName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQFileName.h"; sourceTree = "<group>"; };
+		BB588AD01F4C024700290AE2 /* UIImage+HQFileName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQFileName.m"; sourceTree = "<group>"; };
+		BB588AD21F4C039000290AE2 /* UIImage+HQAntialias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQAntialias.h"; sourceTree = "<group>"; };
+		BB588AD31F4C039000290AE2 /* UIImage+HQAntialias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQAntialias.m"; sourceTree = "<group>"; };
+		BB588AD61F4C04DA00290AE2 /* UIView+HQGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HQGesture.h"; sourceTree = "<group>"; };
+		BB588AD71F4C04DA00290AE2 /* UIView+HQGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HQGesture.m"; sourceTree = "<group>"; };
+		BB588AD91F4C073B00290AE2 /* UIView+HQFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HQFrame.h"; sourceTree = "<group>"; };
+		BB588ADA1F4C073B00290AE2 /* UIView+HQFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HQFrame.m"; sourceTree = "<group>"; };
+		BB588ADC1F4C07F700290AE2 /* UIView+HQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HQExtension.h"; sourceTree = "<group>"; };
+		BB588ADD1F4C07F700290AE2 /* UIView+HQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HQExtension.m"; sourceTree = "<group>"; };
+		BB588AE01F4C0CA400290AE2 /* UIButton+HQTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HQTouch.h"; sourceTree = "<group>"; };
+		BB588AE11F4C0CA400290AE2 /* UIButton+HQTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HQTouch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +251,9 @@
 			children = (
 				BB588AC01F4BFA8B00290AE2 /* UIKit_Category.h */,
 				BB588ABD1F4BF99B00290AE2 /* NSColor */,
+				BB588AC81F4BFFDD00290AE2 /* UIImage */,
+				BB588AD51F4C04AE00290AE2 /* UIView */,
+				BB588ADF1F4C0B3E00290AE2 /* UIButton */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -316,8 +349,49 @@
 		BB588ABD1F4BF99B00290AE2 /* NSColor */ = {
 			isa = PBXGroup;
 			children = (
+				BB588AC21F4BFDCA00290AE2 /* UIColor+HQHex.h */,
+				BB588AC31F4BFDCA00290AE2 /* UIColor+HQHex.m */,
+				BB588AC51F4BFF3300290AE2 /* UIColor+HQRandom.h */,
+				BB588AC61F4BFF3300290AE2 /* UIColor+HQRandom.m */,
 			);
 			path = NSColor;
+			sourceTree = "<group>";
+		};
+		BB588AC81F4BFFDD00290AE2 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				BB588AC91F4C000200290AE2 /* UIImage+HQCapture.h */,
+				BB588ACA1F4C000200290AE2 /* UIImage+HQCapture.m */,
+				BB588ACC1F4C010E00290AE2 /* UIImage+HQColor.h */,
+				BB588ACD1F4C010E00290AE2 /* UIImage+HQColor.m */,
+				BB588ACF1F4C024700290AE2 /* UIImage+HQFileName.h */,
+				BB588AD01F4C024700290AE2 /* UIImage+HQFileName.m */,
+				BB588AD21F4C039000290AE2 /* UIImage+HQAntialias.h */,
+				BB588AD31F4C039000290AE2 /* UIImage+HQAntialias.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		BB588AD51F4C04AE00290AE2 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				BB588AD61F4C04DA00290AE2 /* UIView+HQGesture.h */,
+				BB588AD71F4C04DA00290AE2 /* UIView+HQGesture.m */,
+				BB588AD91F4C073B00290AE2 /* UIView+HQFrame.h */,
+				BB588ADA1F4C073B00290AE2 /* UIView+HQFrame.m */,
+				BB588ADC1F4C07F700290AE2 /* UIView+HQExtension.h */,
+				BB588ADD1F4C07F700290AE2 /* UIView+HQExtension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		BB588ADF1F4C0B3E00290AE2 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				BB588AE01F4C0CA400290AE2 /* UIButton+HQTouch.h */,
+				BB588AE11F4C0CA400290AE2 /* UIButton+HQTouch.m */,
+			);
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,14 +531,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB588A961F4ACB8200290AE2 /* NSDictionary+HQMerge.m in Sources */,
+				BB588ADE1F4C07F700290AE2 /* UIView+HQExtension.m in Sources */,
+				BB588AE21F4C0CA400290AE2 /* UIButton+HQTouch.m in Sources */,
 				BB588A901F4AC97300290AE2 /* NSDateFormatter+HQMake.m in Sources */,
 				BB588AB81F4BD95E00290AE2 /* NSString+HQSize.m in Sources */,
 				BB588A8D1F4AB17800290AE2 /* NSDate+Extension.m in Sources */,
 				BB588AA01F4AD06900290AE2 /* NSTimer+HQExtension.m in Sources */,
+				BB588AD11F4C024700290AE2 /* UIImage+HQFileName.m in Sources */,
 				BB588A841F4AAD3800290AE2 /* NSArray+HQLog.m in Sources */,
+				BB588AC71F4BFF3300290AE2 /* UIColor+HQRandom.m in Sources */,
 				BB588A3E1F4A7E7C00290AE2 /* ViewController.m in Sources */,
+				BB588ACE1F4C010E00290AE2 /* UIImage+HQColor.m in Sources */,
 				BB588A931F4ACACB00290AE2 /* NSDictionary+HQJson.m in Sources */,
+				BB588AD81F4C04DA00290AE2 /* UIView+HQGesture.m in Sources */,
+				BB588AC41F4BFDCA00290AE2 /* UIColor+HQHex.m in Sources */,
 				BB588A871F4AAD6200290AE2 /* NSArray+HQJson.m in Sources */,
+				BB588ACB1F4C000200290AE2 /* UIImage+HQCapture.m in Sources */,
 				BB588A991F4ACD0F00290AE2 /* NSString+HQContains.m in Sources */,
 				BB588AB11F4BD5BA00290AE2 /* NSString+HQEncode.m in Sources */,
 				BB588ABB1F4BE36700290AE2 /* NSData+HQBase64.m in Sources */,
@@ -472,8 +554,10 @@
 				BB588A3B1F4A7E7C00290AE2 /* AppDelegate.m in Sources */,
 				BB588A381F4A7E7C00290AE2 /* main.m in Sources */,
 				BB588A8A1F4AAE7600290AE2 /* NSArray+HQBlock.m in Sources */,
+				BB588AD41F4C039000290AE2 /* UIImage+HQAntialias.m in Sources */,
 				BB588AB41F4BD78D00290AE2 /* NSString+HQSpell.m in Sources */,
 				BB588AA31F4AD37800290AE2 /* NSTimer+HQBlock.m in Sources */,
+				BB588ADB1F4C073B00290AE2 /* UIView+HQFrame.m in Sources */,
 				BB588AAB1F4BD33500290AE2 /* NSString+HQBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
