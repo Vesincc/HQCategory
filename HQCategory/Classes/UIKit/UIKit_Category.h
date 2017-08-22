@@ -11,5 +11,4 @@
 
 #import "NSArray+HQLog.h"
 
-
 #endif /* UIKit_Category_h */

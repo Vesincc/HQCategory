@@ -26,13 +26,11 @@
 		BB588A9C1F4ACD2500290AE2 /* NSDictionary+HQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A9B1F4ACD2500290AE2 /* NSDictionary+HQLog.m */; };
 		BB588AA01F4AD06900290AE2 /* NSTimer+HQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588A9F1F4AD06900290AE2 /* NSTimer+HQExtension.m */; };
 		BB588AA31F4AD37800290AE2 /* NSTimer+HQBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AA21F4AD37800290AE2 /* NSTimer+HQBlock.m */; };
-		BB588AA81F4ADDFE00290AE2 /* Foundation_Category.h in Sources */ = {isa = PBXBuildFile; fileRef = BB588AA71F4ADC3200290AE2 /* Foundation_Category.h */; };
 		BB588AAB1F4BD33500290AE2 /* NSString+HQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AAA1F4BD33500290AE2 /* NSString+HQBase64.m */; };
 		BB588AB11F4BD5BA00290AE2 /* NSString+HQEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AB01F4BD5BA00290AE2 /* NSString+HQEncode.m */; };
 		BB588AB41F4BD78D00290AE2 /* NSString+HQSpell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AB31F4BD78D00290AE2 /* NSString+HQSpell.m */; };
 		BB588AB81F4BD95E00290AE2 /* NSString+HQSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AB71F4BD95E00290AE2 /* NSString+HQSize.m */; };
 		BB588ABB1F4BE36700290AE2 /* NSData+HQBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588ABA1F4BE36700290AE2 /* NSData+HQBase64.m */; };
-		BB588AC11F4BFA9800290AE2 /* UIKit_Category.h in Sources */ = {isa = PBXBuildFile; fileRef = BB588AC01F4BFA8B00290AE2 /* UIKit_Category.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -458,8 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB588AC11F4BFA9800290AE2 /* UIKit_Category.h in Sources */,
-				BB588AA81F4ADDFE00290AE2 /* Foundation_Category.h in Sources */,
 				BB588A961F4ACB8200290AE2 /* NSDictionary+HQMerge.m in Sources */,
 				BB588A901F4AC97300290AE2 /* NSDateFormatter+HQMake.m in Sources */,
 				BB588AB81F4BD95E00290AE2 /* NSString+HQSize.m in Sources */,
