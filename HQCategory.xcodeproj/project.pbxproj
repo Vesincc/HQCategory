@@ -131,6 +131,7 @@
 		BB588ADD1F4C07F700290AE2 /* UIView+HQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HQExtension.m"; sourceTree = "<group>"; };
 		BB588AE01F4C0CA400290AE2 /* UIButton+HQTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HQTouch.h"; sourceTree = "<group>"; };
 		BB588AE11F4C0CA400290AE2 /* UIButton+HQTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HQTouch.m"; sourceTree = "<group>"; };
+		BB588AE31F4C216300290AE2 /* HQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +225,7 @@
 		BB588A731F4AAA5B00290AE2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BB588AE31F4C216300290AE2 /* HQCategory.h */,
 				BB588A741F4AAA8500290AE2 /* Foundation */,
 				BB588A751F4AAA8500290AE2 /* UIKit */,
 			);

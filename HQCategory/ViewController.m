@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Foundation_Category.h"
-#import "UIKit_Category.h"
+#import "HQCategory.h"
 
 @interface ViewController ()
 

@@ -9,5 +9,7 @@
 #ifndef HQCategory_h
 #define HQCategory_h
 
+#import "Foundation_Category.h"
+#import "UIKit_Category.h"
 
 #endif /* HQCategory_h */
