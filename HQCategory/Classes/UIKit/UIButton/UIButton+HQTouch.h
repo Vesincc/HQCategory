@@ -22,4 +22,16 @@
  */
 @property (nonatomic, assign) BOOL isIgnore;
 
+
+/**
+ 扩大UIButton的点击区域
+
+ @param edge 四周扩大区域
+ */
+- (void)hq_addTouchZoneWithEdge:(CGFloat)edge;
+
+- (void)hq_addTouchZoneWithWith:(CGFloat)with height:(CGFloat)height;
+
+- (void)hq_addTouchZoneWithTop:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom left:(CGFloat)left;
+
 @end

@@ -33,7 +33,7 @@
     
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 100)];
     button.backgroundColor = [UIColor hq_randomColor];
-    
+    [button hq_addTouchZoneWithEdge:30];
     [self.view addSubview:button];
     
     [button addTarget:self action:@selector(action) forControlEvents:UIControlEventTouchUpInside];
