@@ -37,6 +37,10 @@
     [self.view addSubview:button];
     
     [button addTarget:self action:@selector(action) forControlEvents:UIControlEventTouchUpInside];
+    
+    NSLog(@"%@", @{@"ads" : @"123", @"aaa" : @"456"});
+    NSLog(@"%@", @[@"ads", @"123", @"aaa", @"456"]);
+    NSLog(@"%@", @[]);
  
 }
 
